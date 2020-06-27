@@ -1,0 +1,128 @@
+///
+/// Hyperspace by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Split */
+
+	.split {
+		@include vendor('display', 'flex');
+
+		> * {
+			width: calc(50% - 2.5em);
+		}
+
+		> :nth-child(2n - 1) {
+			padding-right: 2.5em;
+			border-right: solid 1px _palette(border);
+		}
+
+		> :nth-child(2n) {
+			padding-left: 2.5em;
+		}
+
+		&.style1 {
+			> :nth-child(2n - 1) {
+				width: calc(66.66666% - 2.5em);
+			}
+
+			> :nth-child(2n) {
+				width: calc(33.33333% - 2.5em);
+			}
+		}
+
+		&.invisiline {
+			> :nth-child(2n - 1) {
+				padding-right: 2.5em;
+				border-right: none;
+
+			}
+		}
+
+
+		@include breakpoint('<=xlarge') {
+			> * {
+				width: calc(50% - 2.5em);
+			}
+
+			> :nth-child(2n - 1) {
+				padding-right: 2em;
+			}
+
+			> :nth-child(2n) {
+				padding-left: 2em;
+			}
+
+			&.style1 {
+				> :nth-child(2n - 1) {
+					width: calc(66.66666% - 2em);
+				}
+
+				> :nth-child(2n) {
+					width: calc(33.33333% - 2em);
+				}
+			}
+		}
+
+		@include breakpoint('<=medium') {
+			display: block;
+
+			> * {
+				border-top: solid 1px _palette(border);
+				margin: 4em 0 0 0;
+				padding: 4em 0 0 0;
+				width: 100% !important;
+			}
+
+			> :nth-child(2n - 1) {
+				border-right: 0;
+				padding-right: 0;
+			}
+
+			> :nth-child(2n) {
+				padding-left: 0;
+			}
+
+			> :first-child {
+				border-top: 0;
+				margin-top: 0;
+				padding-top: 0;
+			}
+		}
+
+		&.feat2padding {
+		@media only screen and (min-width:736px) and (max-width: 980px){
+
+
+			> * {	border-top: solid 0px _palette(border);
+				margin: -3em 0 0 0;
+				padding-bottom: 1em;
+			}
+
+				> :nth-child(2n) {
+					padding-left: 35%;
+				}
+			}
+			@include breakpoint('<=small') {
+				> * {
+					border-top: solid 0px _palette(border);
+					margin: -2em 0 0 0;
+					padding: 1em 0 0 0;
+
+					h2 {
+						padding-bottom: .5em;
+					}
+				}
+			}
+
+		}
+
+		@include breakpoint('<=small') {
+			> * {
+				margin: 3em 0 0 0;
+				padding: 3em 0 0 0;
+
+			}
+		}
+	}
