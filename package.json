@@ -14,6 +14,7 @@
     "gatsby": "^2.20.29",
     "gatsby-plugin-manifest": "^2.3.6",
     "gatsby-plugin-offline": "^3.1.4",
+    "gatsby-plugin-optimize-svgs": "^1.0.4",
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-sass": "^2.2.3",
     "node-sass": "^4.13.1",
