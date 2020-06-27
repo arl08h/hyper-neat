@@ -21,9 +21,9 @@ const ContactForm = () =>
       </div>
       <ul className="actions">
         <li>
-          <a href="/#" className="button submit">
+          <button href="/#" className="button submit">
             Send Message
-          </a>
+          </button>
         </li>
       </ul>
     </form>
