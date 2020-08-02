@@ -19,6 +19,13 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    'gatsby-plugin-optimize-svgs',
+    {
+   resolve: "gatsby-plugin-react-svg",
+   options: {
+     rule: {
+       include: /assets/
+     }
+   }
+ }
   ],
 };

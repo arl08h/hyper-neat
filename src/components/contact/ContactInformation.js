@@ -15,7 +15,7 @@ const ContactInformation = () =>
       </li>
       <li>
         <h3>Email</h3>
-        <a href="/#">user@untitled.tld</a>
+        <a href="mailto:andrew.lahaye@gmail.com">andrew.lahaye@gmail.com</a>
       </li>
       <li>
         <h3>Phone</h3>
@@ -30,9 +30,10 @@ const ContactInformation = () =>
             </a>
           </li>
           <li>
-            <a href="/#" className="fa-facebook">
+            <a href="https://www.facebook.com/andrew.lahaye.1" className="fa-facebook" target="_blank">
               <span className="label">Facebook</span>
             </a>
+
           </li>
           <li>
             <a href="/#" className="fa-github">

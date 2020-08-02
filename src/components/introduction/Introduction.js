@@ -2,7 +2,8 @@ import React from 'react';
 import Scroll from '../common/Scroll';
 
 
-import micro from '../../images/micro.jpeg';
+import icromat6 from '../../assets/sass/images/icromat6.svg';
+
 
 const Introduction = () =>
   <section id="intro" className="wrapper style1 fullscreen fade-up">

@@ -10,8 +10,8 @@ const Features = () => {
     {
       href: '/#',
       image: micro,
-      heading: 'Sed ipsum dolor',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
+      heading: 'Peas',
+      description: 'Bright flavor, cruchy texture,tall branchlike aesthetic.',
       to: {
         href: '/generic',
         label: 'Learn more',
