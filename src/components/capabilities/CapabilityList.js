@@ -1,17 +1,21 @@
 import React from 'react';
 
 import Capability from './Capability';
+import andrewgreens from '../../assets/sass/images/andrewgreens.jpg';
+import audreygreens from '../../assets/sass/images/audreygreens.jpg';
 
 const CapabilityList = () => {
   const CAPABILITIES = [
     {
-      heading: 'Andrew LaHaye',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
+      image: andrewgreens,
+      heading: 'Andrew',
+      description: 'Amateur botanist. Grower of food. Philosophy nerd. Surf rat. Will talk about plants & fungi longer than most people care to listen.',
       iconClass: 'fa-code',
     },
     {
-      heading: 'Morem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
+      image: audreygreens,
+      heading: 'Audrey',
+      description: 'Green-thumbed movie buff. Loves making videos and tasty meals. Never hikes without a craft beer in her backpack. ',
       iconClass: 'fa-lock',
     }
   ]

@@ -12,9 +12,6 @@ const Feature = ({href, image, heading, description, to}) =>
         <p>{description}</p>
         <ul className="actions">
           <li>
-            <Link className="button" to={to.href}>
-              {to.label}
-            </Link>
           </li>
         </ul>
       </div>
@@ -22,3 +19,6 @@ const Feature = ({href, image, heading, description, to}) =>
   </section>
 
 export default Feature;
+/*<Link className="button" to={to.href}>
+  {to.label}
+</Link>*/

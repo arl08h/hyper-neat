@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Features from './Features'
-import micro from '../../images/micro.jpeg';
 import icroleft from '../../assets/sass/images/icroleft.svg'
 
 

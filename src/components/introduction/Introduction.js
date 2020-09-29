@@ -1,7 +1,6 @@
 import React from 'react';
 import Scroll from '../common/Scroll';
 
-
 import icromat6 from '../../assets/sass/images/icromat6.svg';
 
 
@@ -18,12 +17,13 @@ const Introduction = () =>
         </Scroll>
         &nbsp;
         <br />
-         and think that's pretty{' '}
+         pretty{' '}
         <Scroll type="id" element="two">
           <a >
             NEAT
           </a>
         </Scroll>
+          {' '} right?
       </p>
       <ul className="actions">
         <li>

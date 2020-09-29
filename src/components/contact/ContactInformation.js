@@ -6,29 +6,22 @@ const ContactInformation = () =>
       <li>
         <h3>Address</h3>
         <span>
-          12345 Somewhere Road #654
+          North Park
           <br />
-          Nashville, TN 00000-0000
-          <br />
-          USA
+          San Diego, CA
         </span>
       </li>
       <li>
         <h3>Email</h3>
-        <a href="mailto:andrew.lahaye@gmail.com">andrew.lahaye@gmail.com</a>
+        <a href="mailto:andrew@neatgreens.com">andrew@neatgreens.com</a>
       </li>
       <li>
         <h3>Phone</h3>
-        <span>(000) 000-0000</span>
+        <span>(858) 633-3440‬</span>
       </li>
       <li>
         <h3>Social</h3>
         <ul className="icons">
-          <li>
-            <a href="/#" className="fa-twitter">
-              <span className="label">Twitter</span>
-            </a>
-          </li>
           <li>
             <a href="https://www.facebook.com/andrew.lahaye.1" className="fa-facebook" target="_blank">
               <span className="label">Facebook</span>
@@ -36,18 +29,8 @@ const ContactInformation = () =>
 
           </li>
           <li>
-            <a href="/#" className="fa-github">
-              <span className="label">GitHub</span>
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="fa-instagram">
+            <a href="https://www.instagram.com/neatgreens/" className="fa-instagram" target="_blank">
               <span className="label">Instagram</span>
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="fa-linkedin">
-              <span className="label">LinkedIn</span>
             </a>
           </li>
         </ul>

@@ -1,11 +1,12 @@
 import React from 'react';
 
-import icrogrowthphase from '../../assets/sass/images/icrogrowthphase.svg';
+import andrewgreens from '../../assets/sass/images/andrewgreens.jpg';
+import audreygreens from '../../assets/sass/images/audreygreens.jpg';
 
-const Capability = ({ heading, description, iconClass }) =>
+const Capability = ({ image, heading, description, iconClass }) =>
   <section >
     <span className="image fit ">
-      <img src={icrogrowthphase} alt="" />
+      <img src={image} alt="" />
     </span>
     <h3>{heading}</h3>
     <p>{description}</p>

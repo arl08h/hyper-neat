@@ -8,10 +8,9 @@ const Contact = () =>
     <div className="inner">
       <h2>Get in touch</h2>
       <p>
-        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-        turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-        lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-        imperdiet est velit quis lorem.
+        If you find our products tantalizing, intriguing or just plain delicious-looking please get in touch!
+        We're always<br/> experimenting with new plant varieties, so give us a shout if you're interested in a personalized order.
+        Open to all requests!
       </p>
       <div className="split style1">
         <ContactForm />

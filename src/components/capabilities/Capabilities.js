@@ -8,19 +8,15 @@ const Capabilities = () =>
     <div className="inner">
       <h2>Who we are</h2>
       <p>
-        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-        turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-        lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-        imperdiet est velit quis lorem.
+        A rag-tag group of plant enthusiasts who love to grow the highest quality greens for their community.
+        We're committed to great service and fostering relationships with chefs, business owners and consumers alike.
       </p>
       <div className="features">
         <CapabilityList />
       </div>
       <ul className="actions">
         <li>
-          <Link className="button" to="/generic">
-            Learn more
-          </Link>
+          
         </li>
       </ul>
     </div>
