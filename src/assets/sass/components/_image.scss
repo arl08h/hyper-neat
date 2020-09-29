@@ -18,6 +18,12 @@
 
 		}
 
+		&.smaller {
+			@include breakpoint('<=small') {
+			 max-width: 20em;
+			}
+		}
+
 		&.left,
 		&.right {
 			max-width: 40%;

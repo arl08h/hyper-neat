@@ -11,11 +11,11 @@ const Feature = ({href, image, heading, description, to}) =>
       <div className="inner">
         <ul className="actions">
           <li style={{marginTop: -75, marginLeft: -4}}>
-          <Link className="button" >
             <Scroll type="id" element="three">
+            <a href="#one" className="button">
               Contact Us
+            </a>
             </Scroll>
-          </Link>
           </li>
         </ul>
       </div>
