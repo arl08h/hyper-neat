@@ -25,6 +25,11 @@
 			@include breakpoint('<=small') {
 				@include padding(3em, 2em);
 			}
+			&.phone {
+				@include breakpoint('<=xsmall') {
+					margin-top: -30px;
+				}
+			}
 		}
 
 		&.alt {

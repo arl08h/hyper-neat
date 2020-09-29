@@ -23,7 +23,7 @@ const ContactInformation = () =>
         <h3>Social</h3>
         <ul className="icons">
           <li>
-            <a href="https://www.facebook.com/andrew.lahaye.1" className="fa-facebook" target="_blank">
+            <a href="https://www.facebook.com/neatgreens" className="fa-facebook" target="_blank">
               <span className="label">Facebook</span>
             </a>
 

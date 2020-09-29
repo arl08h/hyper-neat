@@ -37,7 +37,7 @@ const Features = (href, to) => {
       href: '/#',
       image: beatphoto2,
       heading: 'Beats',
-      description: 'Tiny, vibrant purple stalks, and a deep green leaf. Subtle beat flavor',
+      description: 'Tiny, vibrant pink stalks, and a deep green leaf. Subtle beat flavor',
       /*to: {
         href: '/beats',
         label: 'Learn more',

@@ -9,7 +9,7 @@ const Contact = () =>
       <h2>Get in touch</h2>
       <p>
         If you find our products tantalizing, intriguing or just plain delicious-looking please get in touch!
-        We're always<br/> experimenting with new plant varieties, so give us a shout if you're interested in a personalized order.
+        We're always experimenting with new plant varieties, so give us a shout if you're interested in a personalized order.
         Open to all requests!
       </p>
       <div className="split style1">

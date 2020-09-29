@@ -6,7 +6,7 @@ import icromat6 from '../../assets/sass/images/icromat6.svg';
 
 const Introduction = () =>
   <section id="intro" className="wrapper style1 fullscreen fade-up">
-    <div className="inner">
+    <div className="inner phone">
       <h1>Neat Greens</h1>
       <p>
         We Grow{' '}
