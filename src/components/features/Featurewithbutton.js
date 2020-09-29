@@ -9,8 +9,8 @@ const Feature = ({href, image, heading, description, to}) =>
     </a>
     <div className="">
       <div className="inner">
-        <ul className="actions">
-          <li style={{marginTop: -75, marginLeft: -4}}>
+        <ul className="actions" >
+          <li style={{marginTop: -70, marginLeft: -4}}>
             <Scroll type="id" element="three">
             <a href="#one" className="button">
               Contact Us
