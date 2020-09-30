@@ -13,6 +13,10 @@
   background-repeat: no-repeat;
   background-size: 165% 71%;
 
+  @include breakpoint('<=xsmall') {
+    background-position: left bottom;
+    background-size: 140% 44%;
+  }
 
   p {
     font-size: 1.25em;
