@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import beatphoto2 from '../../images/beatphoto2.jpeg';
+import beetphoto2 from '../../images/beetphoto2.jpeg';
 import radishphoto2 from '../../images/radishphoto2.jpeg';
 import peaphoto2 from '../../images/peaphoto2.jpeg';
 import sunflowerphoto3 from '../../images/sunflowerphoto3.jpeg';
@@ -37,7 +37,7 @@ const Features = (href, to) => {
       href: '/#',
       image: beetphoto2,
       heading: 'Beets',
-      description: 'Tiny, vibrant pink stalks, and a deep green leaf. Subtle beat flavor',
+      description: 'Tiny, vibrant pink stalks, and a deep green leaf. Subtle beet flavor',
       /*to: {
         href: '/beats',
         label: 'Learn more',
